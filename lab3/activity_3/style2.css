@@ -1,0 +1,52 @@
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+
+text.label {
+    text-anchor: middle;
+    font-size: 11px;
+    fill: #555;
+    font-family: sans-serif;
+}
+
+.axis text {
+    fill: #555;
+}
+
+.axis line,
+.axis path {
+    stroke: #555;
+}
+
+text.title {
+    text-anchor: middle;
+    font-size: 14px;
+    fill: #333;
+}
+
+
+.git1 text{
+    vertical-align:top;
+    font-size: x-small;
+    opacity: 0;
+}
+
+.git1:hover text {
+    vertical-align:top;
+    font-size: x-small;
+    opacity: 1;
+}
+
+.git1 circle {
+    opacity: 0.5;
+}
+
+.git1:hover circle {
+    opacity: 1;
+}
+
+

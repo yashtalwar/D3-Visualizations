@@ -1,0 +1,39 @@
+#categoriesSelectOptions {
+    padding-bottom: 10px;
+    margin-left: 450px;
+}
+
+#main{
+    padding-left: 50px;
+}
+h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+}
+h1{
+    padding-left: 700px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+rect{
+    padding-bottom: 100px;
+}
+
+circle{
+    opacity: 0.7;
+}
+
+.d3-tip {
+    line-height: 1;
+    padding: 2px;
+    background: rgba(240, 240, 240, 0.95);
+    color: #333;
+    border-radius: 2px;
+    font-size: 12px;
+  }
+
+  text{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    user-select: none;
+  }
+
+
