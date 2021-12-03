@@ -71,11 +71,15 @@ function updateChart(xAxis,yAxis,year){
     
     d3.select('#scatterplot').append('g').attr('class', 'xaxis')
     .attr('transform', 'translate(-20,670)')
-    .call(d3.axisBottom(xScale).ticks(6).tickFormat(function(d){return d;}));
+    .call(d3.axisBottom(xScale).ticks(6).tickFormat(function(d){
+        format = d3.format(",");
+        return format(d)}));
     
     d3.select('#scatterplot').append('g').attr('class', 'yaxis')
     .attr('transform', 'translate(70,0)')
-    .call(d3.axisLeft(yScale).ticks(6).tickFormat(function(d){return d;}));
+    .call(d3.axisLeft(yScale).ticks(6).tickFormat(function(d){
+        format = d3.format(",");
+        return format(d)}));
     let dataFilter2 = []
     if(year === "all"){
         dataFilter2 = datafilter
